@@ -67,5 +67,4 @@ const Thought = model('Thought', ThoughtSchema);
     return this.reactions.length;
   });
 
-
 module.exports = Thought;
